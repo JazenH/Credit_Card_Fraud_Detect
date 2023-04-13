@@ -20,6 +20,10 @@ With a high unbalanced ratio, a direct applying of classification could lead to 
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, tensorflow \
 **Data Source:** https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
+## Data engineering
+- Aggregate the transactions in unit hour. The data provide instances in seconds, by gathering the events in hours, we found a main difference between fraud and non-frand transaction
+- Re-scale the data with RobustScaler. We found that fraud transaction are more tend to be small in amount. There are sporadic large fraud transaction as outlier. We resclae the data to reduce the risk to sabotage the behavior of the models
+
 
 
 
