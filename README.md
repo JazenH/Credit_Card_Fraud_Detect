@@ -29,15 +29,15 @@ With a high unbalanced ratio, a direct applying of classification could lead to 
 </p>
 
 <p >
-<img src="https://github.com/JazenH/Credit_Card_Fraud_Detect/blob/main/fraud_amount.png" width="1000" height="450" />
+<img src="https://github.com/JazenH/Credit_Card_Fraud_Detect/blob/main/fraud_amount.png" width="850" height="450" />
 </p>
 
 <p >
-<img src="https://github.com/JazenH/Credit_Card_Fraud_Detect/blob/main/RandomForest_n.png" width="450" height="450" />
+<img src="https://github.com/JazenH/Credit_Card_Fraud_Detect/blob/main/RandomForest_n.png" width="600" height="450" />
 </p>
 
 <p >
-<img src="https://github.com/JazenH/Credit_Card_Fraud_Detect/blob/main/RandomForest_ROC.png" width="450" height="450" />
+<img src="https://github.com/JazenH/Credit_Card_Fraud_Detect/blob/main/RandomForest_ROC.png" width="600" height="450" />
 </p>
 
 
