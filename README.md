@@ -20,7 +20,7 @@ With a high unbalanced ratio, a direct applying of classification could lead to 
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, tensorflow \
 **Data Source:** https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
-## Data engineering
+## EDA
 - Aggregate the transactions in unit hour. The data provide instances in seconds, by gathering the events in hours, we found a main difference between fraud and non-frand transaction
 - Re-scale the data with RobustScaler. We found that fraud transaction are more tend to be small in amount. There are sporadic large fraud transaction as outlier. We resclae the data to reduce the risk to sabotage the behavior of the models
 
@@ -31,7 +31,10 @@ With a high unbalanced ratio, a direct applying of classification could lead to 
 <p >
 <img src="https://github.com/JazenH/Credit_Card_Fraud_Detect/blob/main/fraud_amount.png" width="850" height="450" />
 </p>
+The data contains records in unit seconds, which elapsed between each transaction and the first transaction in the dataset. There are more than 280,000 in the dataset, the enormous records bury the pattern of the collective behavior. We construct a column "hour" by aggregating the transation amount in each hour. We should the relation between the amount and time. From the graph we can see that for non-fraud transaction, there is an obvious period which is about 24 hours. This can be easily explain that true transactions occored within normal working hours and the peaks mark at day time. There are certain transaction happen at night. For fraudulant transaction, there is no pattern. The fraudster keep attack the system in short intervals. A possible reason is that with large attack rate and small transaction amount, the fraudster and hide the tracks an acumulate considerable quota.
 
+
+## Modeling
 <p >
 <img src="https://github.com/JazenH/Credit_Card_Fraud_Detect/blob/main/RandomForest_n.png" width="600" height="450" />
 </p>
