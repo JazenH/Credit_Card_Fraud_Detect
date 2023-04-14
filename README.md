@@ -25,7 +25,11 @@ With a high unbalanced ratio, a direct applying of classification could lead to 
 - Re-scale the data with RobustScaler. We found that fraud transaction are more tend to be small in amount. There are sporadic large fraud transaction as outlier. We resclae the data to reduce the risk to sabotage the behavior of the models
 
 <p >
-<img src="https://github.com/JazenH/Credit_Card_Fraud_Detect/blob/main/RandomForest_ROC.png" width="450" height="450" />
+<img src="https://github.com/JazenH/Credit_Card_Fraud_Detect/blob/main/amount_frequency.png" width="1100" height="450" />
+</p>
+
+<p >
+<img src="https://github.com/JazenH/Credit_Card_Fraud_Detect/blob/main/fraud_amount.png" width="1000" height="450" />
 </p>
 
 <p >
@@ -33,9 +37,9 @@ With a high unbalanced ratio, a direct applying of classification could lead to 
 </p>
 
 <p >
-<img src="https://github.com/JazenH/Credit_Card_Fraud_Detect/blob/main/amount_frequency.png" width="450" height="450" />
+<img src="https://github.com/JazenH/Credit_Card_Fraud_Detect/blob/main/RandomForest_ROC.png" width="450" height="450" />
 </p>
 
-<p >
-<img src="https://github.com/JazenH/Credit_Card_Fraud_Detect/blob/main/fraud_amount.png" width="450" height="450" />
-</p>
+
+
+
