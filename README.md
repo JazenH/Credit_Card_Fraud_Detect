@@ -24,6 +24,18 @@ With a high unbalanced ratio, a direct applying of classification could lead to 
 - Aggregate the transactions in unit hour. The data provide instances in seconds, by gathering the events in hours, we found a main difference between fraud and non-frand transaction
 - Re-scale the data with RobustScaler. We found that fraud transaction are more tend to be small in amount. There are sporadic large fraud transaction as outlier. We resclae the data to reduce the risk to sabotage the behavior of the models
 
+<p >
+<img src="https://github.com/JazenH/Credit_Card_Fraud_Detect/blob/main/RandomForest_ROC.png" width="450" height="450" />
+</p>
 
+<p >
+<img src="https://github.com/JazenH/Credit_Card_Fraud_Detect/blob/main/RandomForest_n.png" width="450" height="450" />
+</p>
 
+<p >
+<img src="https://github.com/JazenH/Credit_Card_Fraud_Detect/blob/main/amount_frequency.png" width="450" height="450" />
+</p>
 
+<p >
+<img src="https://github.com/JazenH/Credit_Card_Fraud_Detect/blob/main/fraud_amount.png" width="450" height="450" />
+</p>
